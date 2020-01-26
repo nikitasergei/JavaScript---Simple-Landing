@@ -1,0 +1,219 @@
+* {
+    /*border: 1px solid red;*/
+    margin: 0;
+    font-family: "Courier New";
+
+}
+
+/******************************HEADER******************************/
+header {
+    background-image: radial-gradient(transparent, rgba(0,0,0,1)), url("img/header-fon1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding-left: 25%;
+    padding-right: 25%;
+    color: red;
+}
+
+li {
+    list-style: none;
+}
+
+.menu > li {
+    position: relative;
+}
+
+.submenu {
+    border-color: rgba(211, 211, 211, 0.3);
+    border-radius: 3px;
+    position: absolute;
+    background: rgba(211, 211, 211, 0.3);
+    display: none;
+}
+
+.menu > li:hover .submenu {
+    display: block;
+}
+
+.submenu > li:hover {
+    color: red;
+}
+
+.header-logo:after, h1:after .header-mobile-screen:after .download:after .tour:after .main-mobile:after .container {
+    overflow: hidden;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.header-logo {
+    float: bottom;
+    object-position: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    float: left;
+    font-size: 20px;
+    width: 63%;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 13px;
+    padding-bottom: 60px;
+    padding: 10px;
+}
+
+.header-mobile-screen {
+    width: 32%;
+    float: right;
+}
+
+.mobile-screen {
+    width: 100%;
+}
+
+.download {
+    color: #306ced;
+    border: 2px solid #306ced;
+    float: left;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+
+}
+
+.tour {
+    float: left;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.end {
+    clear: both;
+    margin-bottom: 50px;
+}
+
+/******************************Main******************************/
+main {
+    background: lightgray;
+    color: #616161;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+h2 {
+    width: 20%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+hr {
+    width: 7%;
+    height: 2px;
+    background: #ff9900;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-first-text {
+    padding: 50px;
+    text-align: center;
+}
+
+.screens {
+    width: 100%;
+
+}
+
+.main-mobile {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.why {
+    width: 40%;
+    float: right;
+    text-align: left;
+    color: black;
+}
+
+.main-second-text {
+    width: 46%;
+    float: right;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 46%;
+    float: right;
+    padding: 10px;
+}
+
+.container > h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+
+}
+
+.container > p {
+    font-size: 10px;
+}
+
+/******************************footer******************************/
+footer {
+    background: darkgrey;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 10%;
+}
+
+.footer-div {
+    color: black;
+    width: 45%;
+    text-transform: uppercase;
+    float: left;
+}
+.footer-div>h2{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.footer-div>hr{
+    width: 30%;
+    margin:20px;
+    margin-left:0;
+}
+.feat{
+    color: #444444;
+    border: 2px solid #444444;
+    float: left;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 30px;
+}
+.video-div{
+    float:right;
+    width: 45%;
+}
+video{
+    width: 100%;
+}
